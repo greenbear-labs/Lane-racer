@@ -6,7 +6,8 @@ A cheerful 2D lane racing game for toddlers, built to be played on an iPad as an
 - **Pick a car**: five original race cars (Zoomer, Bolt, Sunny, Leafy, Rocket).
 - **Pick a place**: Speedway, Muddy Trail (dirt road where mud puddles splat the screen), Snowy Peaks (falling snow, snowmen, ice) or Sunny Beach (palms, sea, crabs and beach balls). Each has its own scenery, obstacles and music key.
 - **Drive**: tap the left or right side of the screen (or swipe) to change lanes. Arrow keys work on a computer.
-- **Collect coins**: 20 coins fills the bar and wins a trophy, with confetti and a fanfare.
+- **Race to the finish**: each race lasts about a minute. A bar at the top shows your car moving toward the checkered flag. Cross the finish line for confetti, a fanfare and a trophy, then race again, pick a new place, or go home.
+- **Collect coins**: the coin count shows on the finish screen.
 - **Power-ups**: star (rainbow car that smashes through anything), lightning (speed boost), bubble (blocks the next bump), magnet (pulls coins in).
 - **No losing**: hitting a cone, crate, tyres, rock or barrier gives a gentle bump and a wobble, then you keep driving. Puddles, ice and mud just slow you a little; mud also splats brown blobs across the screen that drip away.
 - House button returns to the title screen; speaker button turns sound and music on or off.

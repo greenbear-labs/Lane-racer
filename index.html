@@ -18,13 +18,37 @@
 <body>
   <canvas id="game"></canvas>
 
+  <!-- Title (a demo race plays behind it) -->
+  <div id="title" class="title-screen">
+    <div class="title big">
+      <span class="t1">LANE</span><span class="t2">RACER</span>
+    </div>
+    <button id="play" class="play-btn" aria-label="Play">
+      <svg viewBox="0 0 24 24"><path d="M8 5.5v13a1 1 0 0 0 1.5.9l10-6.5a1 1 0 0 0 0-1.7l-10-6.5A1 1 0 0 0 8 5.5z"/></svg>
+    </button>
+  </div>
+
   <!-- Car select -->
-  <div id="select" class="screen">
+  <div id="select" class="screen hidden">
+    <button id="back-cars" class="round-btn back-btn" aria-label="Back">
+      <svg viewBox="0 0 24 24"><path d="M15 4 7 12l8 8" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
     <div class="title">
       <span class="t1">LANE</span><span class="t2">RACER</span>
     </div>
     <div id="cars" class="cars"></div>
     <button id="sound-sel" class="round-btn sound-btn" aria-label="Sound on or off"></button>
+  </div>
+
+  <!-- Track select -->
+  <div id="tracks" class="screen hidden">
+    <button id="back-tracks" class="round-btn back-btn" aria-label="Back">
+      <svg viewBox="0 0 24 24"><path d="M15 4 7 12l8 8" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="pick-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M5 2v20h2v-7h5l1 2h7V5h-6l-1-2H7V2z"/></svg>
+    </div>
+    <div id="tracks-grid" class="cars tracks"></div>
   </div>
 
   <!-- In-game HUD -->
